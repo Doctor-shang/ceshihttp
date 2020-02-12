@@ -16,7 +16,7 @@
 <script>
     let token = '1111'
     btn.onclick = function () {
-        timedGetText('127.0.0.1:8090/invoice/askGrantAuthorization?platform=PLATFROM_NUONUO', 10, (res) => {
+        timedGetText('http://127.0.0.1:8090/invoice/askGrantAuthorization?platform=PLATFROM_NUONUO', 10, (res) => {
             console.log(res)
         })
     }
